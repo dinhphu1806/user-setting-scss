@@ -1,0 +1,33 @@
+header {
+  background-color: red;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+}
+
+footer {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section button {
+  background-color: red;
+  border: none;
+  padding: 5px 10px;
+  color: #000;
+  background-color: blue;
+}
+
+footer button {
+  background-color: red;
+  border: none;
+  padding: 5px 10px;
+  color: #000;
+}
+footer p {
+  font-size: 25px;
+}/*# sourceMappingURL=index.css.map */

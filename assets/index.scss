@@ -1,0 +1,26 @@
+@import 'variable';
+@import 'header'; // b2 import vô sau khi cắt phần header ra file _header.scss
+@import 'footer';// b2 import vô sau khi cắt phần footer ra file _footer.scss
+@import 'mixin'; // b2 import vô sau khi cắt phần @mixin ra file _mixin.scss
+
+// section button{
+//         @include buttonStyle();
+//         background-color: blue;
+// }
+// footer button{
+//     @include buttonStyle();
+// }
+section{
+    button{
+        @include buttonStyle();
+        background-color: blue;
+    }
+}
+footer{
+    button{
+        @include buttonStyle();
+    }
+    p{
+        font-size: 25px;
+    }
+}
